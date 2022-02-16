@@ -1,0 +1,27 @@
+{
+  "name": "scss-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collinvdv/scss-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Collinvdv/scss-repo/issues"
+  },
+  "homepage": "https://github.com/Collinvdv/scss-repo#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.42",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.6.0"
+  }
+}
